@@ -6,14 +6,18 @@ output:
   dir: ./dist
 content:
   sources: 
-  - url: https://github.com/Synodic-Software/Porringer-Website.git
-    branches: stable
+  - url: .
+    start_path: docs
+    version: true
   - url: https://github.com/Synodic-Software/Porringer.git
-    branches: stable
+    start_path: docs
+    version: true
   - url: https://github.com/Synodic-Software/Porringer-Core.git
-    branches: stable
+    start_path: docs
+    version: true
   - url: https://github.com/Synodic-Software/Pytest-Porringer.git
-    branches: stable
+    start_path: docs
+    version: true
 ui: 
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
