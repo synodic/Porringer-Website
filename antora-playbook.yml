@@ -1,0 +1,21 @@
+site:
+  title: Porringer Docs
+  url: https://porringer.dev
+output:
+  dir: ./dist
+content:
+  sources: 
+  - url: https://github.com/Synodic-Software/Porringer.git
+    branches: stable
+  - url: https://github.com/Synodic-Software/Porringer.git
+    branches: stable
+  - url: https://github.com/Synodic-Software/Pytest-Porringer.git
+    branches: stable
+ui: 
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./ui
+antora:
+  extensions:
+  - '@antora/lunr-extension'
