@@ -1,9 +1,5 @@
 name: porringer-website
-title: Component A
-start_page: inline-text-formatting.adoc
-asciidoc:
-  attributes:
-    source-language: asciidoc@
-    table-caption: false
+title: Porringer Documentation
+start_page: porringer-website::index.adoc
 nav:
 - modules/ROOT/nav.adoc

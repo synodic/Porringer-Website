@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "generate": "npx antora antora-playbook.yml"
+        "generate": "npx antora --fetch antora-playbook.yml"
     },
     "dependencies": {},
     "devDependencies": {
