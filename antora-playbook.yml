@@ -26,3 +26,4 @@ ui:
 antora:
   extensions:
   - '@antora/lunr-extension'
+  - '@antora/collector-extension'
