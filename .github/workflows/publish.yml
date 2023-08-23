@@ -10,8 +10,8 @@ on:
   # External trigger
   repository_dispatch:
     types: 
-      - deploy
-      
+      - docs-deploy
+
 # Allow one concurrent deployment for the workflow
 concurrency:
   group: page-deploy
