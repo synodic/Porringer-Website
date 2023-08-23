@@ -1,2 +1,3 @@
 = Porringer Documentation
 :navtitle: Porringer Documentation
+Porringer is a utility to automate and unify the interaction between multiple package managers.
