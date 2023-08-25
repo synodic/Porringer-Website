@@ -23,6 +23,8 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./ui
+runtime: # https://docs.antora.org/antora/latest/playbook/configure-runtime/
+    fetch: true 
 antora:
   extensions:
   - '@antora/lunr-extension'
