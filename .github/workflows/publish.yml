@@ -1,8 +1,6 @@
 name: Publish Website to GitHub Pages
 on:
   push:
-    branches:
-      - stable
       
   # Manual trigger
   workflow_dispatch:
