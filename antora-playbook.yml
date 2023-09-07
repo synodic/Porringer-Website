@@ -15,6 +15,15 @@ content:
   - url: https://github.com/Synodic-Software/Porringer-Core.git
     start_path: docs
     version: true
+  - url: https://github.com/Synodic-Software/Porringer-Pip.git
+    start_path: docs
+    version: true
+  - url: https://github.com/Synodic-Software/Porringer-Pipx.git
+    start_path: docs
+    version: true
+  - url: https://github.com/Synodic-Software/Porringer-Winget.git
+    start_path: docs
+    version: true
   - url: https://github.com/Synodic-Software/Pytest-Porringer.git
     start_path: docs
     version: true
