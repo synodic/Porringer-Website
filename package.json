@@ -5,7 +5,7 @@
     },
     "devDependencies": {
         "@antora/collector-extension": "^1.0.0-beta.4",
-        "@antora/lunr-extension": "^1.0.0-alpha.8",
+        "@antora/lunr-extension": "^1.0.0-alpha.9",
         "antora": "^3.1.9"
     }
 }
